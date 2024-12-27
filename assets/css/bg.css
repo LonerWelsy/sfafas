@@ -1,0 +1,16 @@
+body {
+	background-color: #ffffff;
+	background: url(/assets/img/image.png) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+	max-height: 100%;
+	background-color: #ffd5a3;
+}
+
+.form__vse {
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+	flex-wrap: wrap;
+	gap: 30px;
+}

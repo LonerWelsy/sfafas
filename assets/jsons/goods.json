@@ -1,0 +1,28 @@
+{
+    "1" : {
+        "name" : "Нагетсы",
+        "cost" : 299,
+        "image" : "assets/img/nagn.png"
+    },
+    "2" : {
+        "name" : "Бургер",
+        "cost" : 399,
+        "image" : "assets/img/burg.png"
+    },
+    "3" : {
+        "name" : "Крылья",
+        "cost" : 299,
+        "image" : "assets/img/cril.png"
+    },
+    "4" : {
+        "name" : "Стйк",
+        "cost" : 499,
+        "image" : "assets/img/staic.png"
+    },
+    "5" : {
+        "name" : "Пицца 100 сыров ",
+        "cost" : 699,
+        "image" : "assets/img/piza.png"
+    }
+    
+}

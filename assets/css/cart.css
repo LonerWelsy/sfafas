@@ -1,0 +1,147 @@
+body {
+    background: url(/assets/img/fon_card.png) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+}
+
+.oblast__pocupac {
+    width: 400px;
+    height: 400px;
+    min-height: 400px;
+    background: #D1462F;
+    padding: 15px;
+    border-radius: 5px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.vsew{
+    width: 95%;
+    max-width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 0px;
+
+}
+#my-cart {
+    color: white;
+
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #ffffffd4;
+    display: flex;
+    justify-content: center;
+}
+
+.form__vse {
+    width: 600px;
+    height: 100%;
+    padding: 15px;
+    height: 520px;
+    background-color: #2E5580;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.cack {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+#my-cart {
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+
+
+}
+
+.delete {
+    width: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 25px 0;
+}
+
+.minus {
+    width: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.plus {
+    width: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+@media (max-width: 1135px) {
+    .oplata_oblact {
+        flex-direction: column;
+       align-items: center;
+    }
+    
+    .oblast__pocupac {
+        width: 100%;
+        max-width: 400px;
+        height: 400px;
+        min-height: 400px;
+        background: #D1462F;
+        padding: 15px;
+        border-radius: 5px;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+
+    .form__vse {
+        width: 90%;
+        max-width: 600px;
+        padding: 15px;
+        height: 520px;
+        background-color: #2E5580;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    
+    }
+}
